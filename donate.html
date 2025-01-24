@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - CRESI</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/cresi logo.png" alt="CRESI Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link active btn btn-primary text-white" href="donate.html">Donate</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Donate Header -->
+    <section class="page-header text-white  py-4">
+        <div class="container text-center">
+            <h1>Support Our Mission</h1>
+            <p class="lead">Make a difference in the lives of rural communities by donating to CRESI.</p>
+        </div>
+    </section>
+
+    <!-- Donation Options -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Donation Form -->
+                <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                    <input type="hidden" name="business" value="your-paypal-business-id">
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="item_name" value="Donation to CRESI">
+                    <label for="donationAmount" class="form-label">Donation Amount (USD)</label>
+                    <input type="number" class="form-control" name="amount" id="donationAmount" placeholder="Enter amount" required>
+                    <button type="submit" class="btn btn-primary w-100 mt-3">Donate Now</button>
+                </form>
+                
+
+                <!-- Impact Section -->
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Your Impact</h2>
+                    <p>Your generous donation helps us to:</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <i class="fas fa-check-circle text-success me-2"></i> Provide education and training for rural youth.
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-check-circle text-success me-2"></i> Support sustainable farming practices.
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-check-circle text-success me-2"></i> Empower community leaders to drive change.
+                        </li>
+                    </ul>
+                    <img src="images/impact.jpg" alt="Impact of Donations" class="img-fluid mt-4 rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Ways to Donate -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Other Ways to Support</h2>
+            <p class="lead">Prefer to donate in other ways? Here’s how you can help:</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fas fa-envelope fa-3x text-primary mb-3"></i>
+                    <h5>Mail a Check</h5>
+                    <p>Send your donation to our office at 123 CRESI Lane, City, Country.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-hand-holding-heart fa-3x text-primary mb-3"></i>
+                    <h5>Volunteer</h5>
+                    <p>Join us as a volunteer and help make a difference in person.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-share-alt fa-3x text-primary mb-3"></i>
+                    <h5>Spread the Word</h5>
+                    <p>Share our mission with your friends and family on social media.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 CRESI. All Rights Reserved. | <a href="privacy.html" class="text-white">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

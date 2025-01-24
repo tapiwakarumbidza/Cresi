@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - CRESI</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/cresi logo.png" alt="CRESI Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary text-white" href="donate.html">Donate</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <section class="page-header text-white  py-4"">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-white">
+                    <h1>CRESI Blog</h1>
+                    <p class="lead">Stories, Insights, and Updates from the Field</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-8">
+                    <!-- Featured Post -->
+                    <article class="card mb-5">
+                        <img src="images/blog-featured.jpg" class="card-img-top" alt="New Training Center Opening">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge bg-primary">News</span>
+                                <small class="text-muted ms-2">January 15, 2024</small>
+                            </div>
+                            <h2 class="card-title">New Training Center Opens to Empower Rural Youth</h2>
+                            <p class="card-text">CRESI is proud to announce the opening of our state-of-the-art training facility, designed to provide vocational education and skills development for rural youth...</p>
+                            <a href="blog-post.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </article>
+
+                    <!-- Regular Posts -->
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <article class="card h-100">
+                                <img src="images/OIP (3).jpeg" class="card-img-top" alt="Sustainable Farming Success">
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <span class="badge bg-success">Success Story</span>
+                                        <small class="text-muted ms-2">January 10, 2024</small>
+                                    </div>
+                                    <h3 class="h4">Sustainable Farming Success in Rural Communities</h3>
+                                    <p>How local farmers are transforming their practices with sustainable methods...</p>
+                                    <a href="blog-post.html" class="btn btn-link px-0">Read More →</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <article class="card h-100">
+                                <img src="images/OIP (4).jpeg" class="card-img-top" alt="Community Leadership">
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <span class="badge bg-info">Leadership</span>
+                                        <small class="text-muted ms-2">January 5, 2024</small>
+                                    </div>
+                                    <h3 class="h4">Empowering Community Leaders</h3>
+                                    <p>Meet the rural leaders making a difference in their communities...</p>
+                                    <a href="blog-post.html" class="btn btn-link px-0">Read More →</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <nav aria-label="Blog pagination">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Search -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4>Search</h4>
+                            <form class="input-group">
+                                <input type="text" class="form-control" placeholder="Search posts...">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation" title="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4>Categories</h4>
+                            <div class="list-group list-group-flush">
+                                <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                    Success Stories
+                                    <span class="badge bg-primary rounded-pill">12</span>
