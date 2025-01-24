@@ -1,11 +1,11 @@
 /* Global Styles */
 :root {
-    --primary-color:hsla(0, 0.00%, 0.00%, 0.00), 0);  /* Earthy Green */
+    --primary-color: #2E7D32; /* Earthy Green */
     --secondary-color: #6A4E23; /* Rich Brown */
-    --accent-color:rgb(0, 0, 0);    /* Soft Green */
-    --text-color: #424242;      /* Dark Grey */
-    --light-bg: #F0E4D7;        /* Light Beige */
-    --black-color: #000000;     /* Black for specific elements */
+    --accent-color: #388E3C; /* Soft Green */
+    --text-color: #424242; /* Dark Grey */
+    --light-bg: #F0E4D7; /* Light Beige */
+    --black-color: #000000; /* Black for specific elements */
 }
 
 body {
@@ -17,35 +17,35 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: var(--black-color) !important;  /* Black header */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: var(--black-color) !important; /* Black header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
     font-weight: 700;
-    color: #ffffff !important;  /* White for logo text */
+    color: #ffffff !important; /* White for logo text */
 }
 
 .nav-link {
-    color: #ffffff !important;  /* White text for nav links */
+    color: #ffffff !important; /* White text for nav links */
 }
 
 .nav-link.btn-primary {
     margin-left: 10px;
     padding: 8px 20px !important;
-    background-color: var(--black-color);  /* Black button */
-    border-color: var(--black-color);      /* Black border */
+    background-color: var(--black-color); /* Black button */
+    border-color: var(--black-color); /* Black border */
     color: #ffffff; /* White text on buttons */
 }
 
 .nav-link.btn-primary:hover {
-    background-color: var(--secondary-color);  /* Hover effect for buttons */
+    background-color: var(--secondary-color); /* Hover effect for buttons */
     border-color: var(--secondary-color);
 }
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/Empowering-rural.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/Empowering-rural.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -54,7 +54,7 @@ body {
 
 /* Page Header */
 .page-header {
-    background-color: var(--black-color);  /* Black header */
+    background-color: var(--black-color); /* Black header */
     padding: 100px 0 50px;
     color: #ffffff; /* White text for page header */
 }
@@ -76,7 +76,7 @@ body {
 /* Card Styles */
 .card {
     border: none;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     margin-bottom: 20px;
 }
@@ -120,14 +120,14 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
-    background: #7e1b1b;  /* Red for urgency */
+    background: #7e1b1b; /* Red for urgency */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer {
-    background-color: var(--black-color);  /* Black footer */
+    background-color: var(--black-color); /* Black footer */
     color: #ffffff; /* White text in footer */
 }
 
@@ -143,13 +143,13 @@ footer {
 
 /* Buttons */
 .btn-primary {
-    background-color: var(--black-color);  /* Black button */
-    border-color: var(--black-color);      /* Black border */
+    background-color: var(--black-color); /* Black button */
+    border-color: var(--black-color); /* Black border */
     color: #ffffff; /* White text on black buttons */
 }
 
 .btn-primary:hover {
-    background-color: var(--secondary-color);  /* Darker shade for hover effect */
+    background-color: var(--secondary-color); /* Darker shade for hover effect */
     border-color: var(--secondary-color);
 }
 
@@ -177,27 +177,4 @@ footer {
         padding-top: 5rem; /* Equivalent to py-5 in Bootstrap */
         padding-bottom: 5rem;
     }
-}
-.navbar {
-    background-color: #000; /* Black */
-}
-
-.btn-primary {
-    background-color: #000;
-    border-color: #000;
-}
-
-.btn-primary:hover {
-    background-color: #333; /* Slightly lighter black */
-    border-color: #333;
-}
-
-.btn-outline-primary {
-    color: #000;
-    border-color: #000;
-}
-
-.btn-outline-primary:hover {
-    background-color: #000;
-    color: #fff;
 }
